@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+ul.admin-menu{
+	list-style: none;
+	padding-left: 0;
+	border-bottom: 1px solid #03476D;
+	margin-bottom: 40px;
+}
+
+ul.admin-menu li{
+	display: inline-block;
+	margin-right: 10px;
+	cursor:pointer;
+	padding:3px;
+}
+
+ul.admin-menu li span:hover{
+	background-color: #03476D;
+	border-radius: 5px;
+	color:#F1F1F1;
+}
+
+ul.admin-menu li:after{
+	content:' | ';
+	margin-left: 10px;
+}
+
+ul.admin-menu li:last-child:after{
+	content:'';
+}
+
+ul.devMenu{
+	list-style: none;
+	padding-left: 0;
+	background: #DEDEDE;
+}
+
+ul.devMenu li{
+	display: inline-block;
+	padding:10px;
+	cursor:pointer;
+}
+
+ul.devMenu li:after{
+	content: '|';
+	padding-left: 25px;
+}
+
+ul.devMenu li:last-child:after{
+	content:'';
+	padding-left: 0px;
+}
+
+#devNotes, #fonts, #log, #themeDev{
+	display:none;
+}
+
+textarea{
+	width:250px;
+	height:100px;
+}
+
+.big{
+	font-size:18px;
+	background: #0074A2;
+	color:#fff;
+	padding:15px;
+	width:400px;
+	text-align: center;
+}
+
+ul.list{
+	list-style-type: disc;
+	padding-left: 30px;
+}

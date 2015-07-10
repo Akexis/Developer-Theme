@@ -1,0 +1,34 @@
+/*-Use this sheet for general styles-*/
+
+code{
+	white-space:normal;
+	}
+
+.main{
+	background: #fff;
+}
+
+.secondary{
+	background: #A9A9A9;
+}
+
+.tertiary{
+	background: #E7E7E7;
+}
+
+.quad{
+	background: #000;
+	color:#fff;
+}
+
+#phoneMenu{
+	display:none;
+}
+
+.padAdj{
+	padding:20px 0px;
+}
+
+.panel-heading p, .panel-default p:last-child{
+	display: none;
+}

@@ -1,0 +1,73 @@
+/*
+Theme Name: Change Theme Name
+Theme URI: Client URL
+Author: Alexis Abbott | Saúl Estrada
+Author URI: http://onlineimage.com
+Version: 2.7.2
+*/
+
+@import 'css/menus.css';
+@import 'css/wordpress-core.css';
+@import 'styles-all.css';
+@import 'css/styles-ie8.css';
+
+/* Only have media queries in this file. */
+	
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#phoneMenu{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	ul.nav-item li{
+		display:list-item;
+		border-bottom: 1px solid #383838;
+		padding: 5px 0px;
+	}
+
+	ul.nav-item li:after{
+		content: '';
+	}
+
+	ul.sub-menu-0{
+		position: relative;
+		padding-left: 20px;
+		top:0px;
+		padding-top: 0px;
+	}
+
+	ul.sub-menu-0 li{
+		background-color: transparent;
+	}
+
+	ul.sub-menu-0 li:last-child{
+		border-bottom: none;
+	}
+
+	ul.sub-menu-1{
+		position: relative;
+		top:0;
+		left:0;
+		width:95%;
+		display:block;
+	}
+}
